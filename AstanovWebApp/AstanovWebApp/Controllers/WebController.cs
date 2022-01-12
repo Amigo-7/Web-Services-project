@@ -16,7 +16,7 @@ namespace AstanovWebApp.Controllers
     public class WebController : ControllerBase
     {
 
-        private IDatabaseContext _dbContext;
+        private IDatabaseContext _databaseContext;
         public WebController(IDatabaseContext databaseContext)
         {
             _databaseContext = databaseContext;
